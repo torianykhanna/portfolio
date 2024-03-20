@@ -236,6 +236,11 @@ tr td:nth-child(2n) {
 
 tr td {
   padding: 10px 0;
+  vertical-align: top;
+}
+
+.first {
+  min-width: 150px;
 }
 
 table {
@@ -264,154 +269,6 @@ table {
   position: absolute;
 }
 
-.skills-item1,
-.skills-item2 {
-  width: 40%;
-  margin: 50px;
-}
-
-.skillsName {
-  margin-top: 40px;
-}
-
-.skillsName h1 {
-  margin-bottom: 5px;
-  font-size: 20px;
-}
-
-.skillHtml {
-  float: right;
-  font-size: 18px;
-}
-
-.skillCss {
-  float: right;
-  margin-right: 2%;
-  font-size: 18px;
-}
-
-.skillJavaScript {
-  float: right;
-  margin-right: 10%;
-  font-size: 18px;
-}
-
-.skillPhotoshop {
-  float: right;
-  margin-right: 45%;
-  font-size: 18px;
-}
-
-.skillFigma {
-  float: right;
-  margin-right: 35%;
-  font-size: 18px;
-}
-
-.skillTypeScript {
-  float: right;
-  margin-right: 60%;
-  font-size: 18px;
-}
-
-.skillAngular {
-  float: right;
-  margin-right: 62%;
-  font-size: 18px;
-}
-
-.skillReact {
-  float: right;
-  margin-right: 55%;
-  font-size: 18px;
-}
-
-.skillVue {
-  float: right;
-  margin-right: 65%;
-  font-size: 18px;
-}
-
-.skillBootstrap {
-  float: right;
-  margin-right: 45%;
-  font-size: 18px;
-}
-
-.skilljQuery {
-  float: right;
-  margin-right: 50%;
-  font-size: 18px;
-}
-
-.skillGit {
-  float: right;
-  margin-right: 40%;
-  font-size: 18px;
-}
-
-.progress-bar {
-  border-radius: 100px;
-  margin-top: -5px;
-  height: 5px;
-  background: var(--color3);
-}
-
-.progress {
-  border-radius: 100px;
-  width: 100%;
-  height: 5px;
-  background: #090909;
-}
-
-.html {
-  width: 95%;
-}
-
-.css {
-  width: 93%;
-}
-
-.javaScript {
-  width: 85%;
-}
-
-.photoshop {
-  width: 50%;
-}
-
-.figma {
-  width: 60%;
-}
-
-.typeScript {
-  width: 36%;
-}
-
-.angular {
-  width: 33%;
-}
-
-.react {
-  width: 40%;
-}
-
-.vue {
-  width: 30%;
-}
-
-.bootstrap {
-  width: 50%;
-}
-
-.jQuery {
-  width: 45%;
-}
-
-.git {
-  width: 55%;
-}
-
 .heading3 {
   font-size: 34px;
   line-height: 0.5;
@@ -421,9 +278,8 @@ table {
 }
 
 .row4 {
-  margin-left: 50px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .row5 {
