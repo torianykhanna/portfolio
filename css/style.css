@@ -171,7 +171,7 @@ header {
 }
 
 #works {
-  height: 150rem;
+  height: 195rem;
   padding-top: 95px;
 }
 
@@ -419,7 +419,6 @@ form {
 .cont {
   height: 93px;
   margin: 5px;
-  width: 40%;
   display: flex;
   padding-left: 50px;
 }
