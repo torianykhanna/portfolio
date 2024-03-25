@@ -171,7 +171,7 @@ header {
 }
 
 #works {
-  height: 195rem;
+  height: 200rem;
   padding-top: 95px;
 }
 
@@ -204,15 +204,19 @@ header {
   color: var(--color5);
 }
 
+.imgPhoto {
+  margin: 0 15% 0 30%;
+}
+
 .photo {
-  width: 400px;
+  width: 100%;
   border-radius: 10px;
 }
 
 .projectPhoto {
-  width: 700px;
+  width: 100%;
   border-radius: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .column1 {
@@ -268,7 +272,7 @@ tr td {
 table {
   padding-top: 13px;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .attachment {
@@ -329,7 +333,7 @@ table {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .button {
@@ -478,13 +482,13 @@ form {
   }
 
   .row h1 {
-    font-size: 32px;
+    font-size: 52px;
     font-weight: bold;
-    color: var(--color2);
+    color: var(--color5);
   }
 
   .row h2 {
-    font-size: 29px;
+    font-size: 19px;
     margin-bottom: 30px;
   }
 
@@ -493,16 +497,14 @@ form {
     margin-top: 60px;
   }
 
-  .foto {
-    border: 5px solid var(--color5);
-    border-radius: 40%;
-    width: 70%;
-    height: auto;
+  table {
+    padding-top: 11px;
+    line-height: 1.3;
   }
 
-  section {
-    padding-top: 40px;
-    height: 690px;
+  .heading {
+    font-size: 20px;
+    margin-top: -20px;
   }
 
   .heading1 {
@@ -521,53 +523,45 @@ form {
     margin-bottom: 10px;
   }
 
+  .rowWork {
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
   .column1 {
-    padding-left: 30px;
-    flex-basis: 60%;
+    display: none;
   }
 
   .column2 {
-    flex-basis: 50%;
-    margin-left: 10px;
-    padding-left: 20px;
+    width: 100%;
   }
 
-  tr td {
-    padding: 5px 0;
+  .column2 p {
+    font-size: 16px;
+    line-height: 1.3;
   }
 
-  table {
-    padding-top: 5px;
+  .column2:nth-child(2n + 1),
+  .column2:nth-child(2n) {
+    padding-left: 65px;
   }
 
   .btn {
     margin-top: 5px;
   }
 
-  .skills-item {
-    margin: 20px 14px;
-    width: 16, 6666667%;
-    height: 16, 6666667%;
-    flex: 0 0 auto;
-  }
-
-  .skills-item1,
-  .skills-item2 {
-    width: 40%;
-    margin: 35px;
-  }
-
-  .itemSkill p {
-    padding-bottom: 15px;
+  #works {
+    padding-top: 60px;
+    height: 125rem;
   }
 
   #about {
-    padding-top: 70px;
+    padding-top: 50px;
   }
 
-  #works,
   #skills {
-    padding-top: 70px;
+    padding-top: 50px;
     height: 650px;
   }
 
