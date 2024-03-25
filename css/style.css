@@ -106,6 +106,7 @@ header {
 .row {
   z-index: 9;
   display: flex;
+  justify-content: center;
   text-align: center;
 }
 
@@ -171,7 +172,7 @@ header {
 }
 
 #works {
-  height: 200rem;
+  height: 193rem;
   padding-top: 95px;
 }
 
@@ -333,7 +334,7 @@ table {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 82px;
 }
 
 .button {
@@ -365,7 +366,7 @@ table {
   background: var(--color3);
   border-radius: 40%;
   padding: 10px;
-  margin-top: -12px;
+  margin-top: -15px;
   margin-left: 100px;
 }
 
@@ -481,8 +482,12 @@ form {
     height: 800px;
   }
 
+  .row p {
+    font-size: 28px;
+  }
+
   .row h1 {
-    font-size: 52px;
+    font-size: 72px;
     font-weight: bold;
     color: var(--color5);
   }
@@ -498,8 +503,8 @@ form {
   }
 
   table {
-    padding-top: 11px;
-    line-height: 1.3;
+    padding-top: 13px;
+    line-height: 1.5;
   }
 
   .heading {
@@ -566,12 +571,7 @@ form {
   }
 
   #contacts {
-    height: 875px;
-  }
-
-  .skillsName h1 {
-    margin-bottom: 3px;
-    font-size: 15px;
+    height: 725px;
   }
 
   .portfolioItem {
@@ -595,6 +595,10 @@ form {
     margin: 0 10px;
   }
 
+  .rowWork {
+    margin-bottom: 40px;
+  }
+
   .cont {
     padding-left: 0;
     width: 70%;
@@ -603,7 +607,7 @@ form {
   }
 
   .form {
-    width: 70%;
+    display: none;
   }
 
   #name,
@@ -678,7 +682,7 @@ form {
     width: 30px;
     height: 4px;
     margin-bottom: 6px;
-    background: var(--color1);
+    background: var(--color5);
     display: block;
   }
 
@@ -710,17 +714,8 @@ form {
     margin-top: 30px;
   }
 
-  .foto {
-    width: 300px;
-    height: auto;
-  }
-
-  .row h2 {
-    font-size: 25px;
-  }
-
   .row h1 {
-    font-size: 27px;
+    font-size: 52px;
   }
 
   .heading1 {
@@ -743,22 +738,12 @@ form {
     justify-content: center;
   }
 
-  tr td {
-    padding: 1px 0;
-  }
-
   .btn {
     margin-top: 2px;
   }
 
   #skills {
     padding-top: 10px;
-  }
-
-  .skills-item {
-    margin: 15px 10px;
-    width: 135px;
-    height: 135px;
   }
 
   .row1 {
@@ -773,31 +758,40 @@ form {
     align-items: center;
   }
 
-  .skills-item1,
-  .skills-item2 {
-    margin: 0;
-    width: 50%;
+  .row4 ul {
+    margin: 5% 10%;
+    font-size: 20px;
+    line-height: 2;
+    list-style: none;
   }
 
-  /* .skillsName {
-        margin-top: 15px;
-    } */
+  .icon {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+  }
 
-  .portfolioItem {
-    width: 40%;
-    height: 142px;
-    margin: 10px 30px;
+  .information h4 {
+    margin-top: 13px;
   }
-  .portfolioItem h3 {
-    margin: 0;
+
+  .row7 .contact {
+    justify-content: start;
   }
-  .portfolioItem p {
-    margin-top: 0;
-    padding: 0;
+
+  .cont {
+    height: 75px;
+    width: 80%;
+  }
+
+  .heading {
+    font-size: 18px;
+    margin-top: -15px;
   }
 
   #contacts {
     padding-top: 60px;
+    height: 675px;
   }
 
   .map {
@@ -837,6 +831,11 @@ form {
     margin: 0;
   }
 
+  .column2 p {
+    font-size: 15px;
+    line-height: 1;
+  }
+
   header,
   .filter {
     height: 600px;
@@ -851,41 +850,41 @@ form {
     height: 550px;
   }
 
-  .foto {
-    width: 200px;
-    height: auto;
+  #works {
+    height: 120rem;
   }
 
-  .skills-item {
-    margin: 10px 5px;
-    width: 120px;
-    height: 120px;
+  #contacts {
+    height: 615px;
   }
 
-  .skills-item h1 {
-    font-size: 18px;
+  table {
+    padding-top: 5px;
+    line-height: 1;
   }
 
-  .skillsName {
-    margin-top: 30px;
+  .first {
+    min-width: 70px;
   }
 
-  .skillsName span {
-    font-size: 13px;
-  }
-
-  .skills-item1,
-  .skills-item2 {
-    margin: 0;
-    width: 60%;
-  }
-
-  .portfolioItem {
-    width: 43%;
+  .column2:nth-child(2n + 1),
+  .column2:nth-child(2n) {
+    padding-left: 35px;
+    padding-right: 25px;
   }
 
   .row7 .contact {
     justify-content: flex-start;
+  }
+
+  .heading3 {
+    font-size: 25px;
+  }
+
+  .row4 ul {
+    margin: 5%;
+    font-size: 20px;
+    line-height: 1.6;
   }
 
   #name,
@@ -908,5 +907,21 @@ form {
 
   .filter2 {
     height: 80px;
+  }
+
+  tr td {
+    padding: 7px 0;
+  }
+
+  .iconWork {
+    width: 45px;
+    height: 45px;
+    margin-top: -10px;
+  }
+
+  .button {
+    font-size: 17px;
+    padding: 12px 28px;
+    color: var(--color5);
   }
 }
