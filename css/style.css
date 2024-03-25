@@ -205,13 +205,14 @@ header {
 }
 
 .photo {
-  max-width: 55%;
+  width: 400px;
   border-radius: 10px;
 }
 
 .projectPhoto {
-  max-width: 90%;
+  width: 700px;
   border-radius: 10px;
+  margin-left: 20px;
 }
 
 .column1 {
@@ -226,6 +227,7 @@ header {
 
 .column2:nth-child(2n) {
   padding-right: 70px;
+  padding-left: 65px;
 }
 
 .column2:nth-child(2n + 1) {
@@ -331,11 +333,12 @@ table {
 }
 
 .button {
-  border-radius: 4px;
+  border-radius: 20px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  color: var(--color2);
+  color: var(--color5);
+  font-weight: bold;
   background: var(--color3);
   text-decoration: none;
 }
@@ -349,14 +352,26 @@ table {
 #footer p {
   display: flex;
   justify-content: center;
+  color: var(--color5);
+}
+
+.iconWork {
+  width: 53px;
+  height: 53px;
+  background: var(--color3);
+  border-radius: 40%;
+  padding: 10px;
+  margin-top: -12px;
+  margin-left: 100px;
 }
 
 .icon {
-  width: 60px;
+  width: 58px;
+  height: 58px;
   background: var(--color3);
   border-radius: 40%;
   padding: 15px;
-  margin: 15px;
+  margin: 8px 15px;
 }
 
 .row7 {
@@ -417,10 +432,14 @@ form {
 }
 
 .cont {
-  height: 93px;
-  margin: 5px;
+  height: 65px;
+  margin: 0;
   display: flex;
   padding-left: 50px;
+}
+
+.cont a {
+  text-decoration: none;
 }
 
 #button {
