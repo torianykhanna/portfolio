@@ -110,15 +110,6 @@ header {
   text-align: center;
 }
 
-.column {
-  height: 500px;
-  flex: 0 0 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .row p {
   font-size: 36px;
   font-weight: bold;
@@ -572,12 +563,6 @@ form {
 
   #contacts {
     height: 725px;
-  }
-
-  .portfolioItem {
-    width: 30%;
-    height: 200px;
-    margin-bottom: 25px;
   }
 
   .row7 {
